@@ -19,7 +19,7 @@ void setup() {
 
 void loop() {
   Serial.print("leftSensor - ");
-  Serial.print(digitalRead(leftSensor));   // turn the LED on (HIGH is the voltage level)
+  Serial.print(digitalRead(leftSensor));
   Serial.print(" ");
   Serial.print("rightSensor - ");
   Serial.println(digitalRead(rightSensor));
